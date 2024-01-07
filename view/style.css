@@ -1,0 +1,352 @@
+* {
+    font-family: 'Oswald', sans-serif;
+    background-color: white;
+    color: black;
+
+}
+
+h1 {
+    text-align: center;
+    padding-top: 1.5rem;
+    font-size: 52px;
+    color: black;
+    letter-spacing: 9px;
+}
+
+.buttons {
+    width: 75vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 40rem;
+}
+
+strong {
+    background: none;
+}
+
+#add {
+    font-size: 1.3em;
+    color: mediumpurple;
+    border: 2px solid mediumpurple;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+#add:hover {
+    background-color: mediumpurple;
+    color: white;
+}
+
+
+#pdfform {
+    font-size: 1.3em;
+}
+
+#pdfform input {
+    font-size: 0.8em;
+    margin-right: 1em;
+}
+
+#pdfform button {
+    font-size: 1em;
+    padding: 8px;
+    cursor: pointer;
+    color: #900000;
+    border: 2px solid #900000;
+    border-radius: 10px;
+
+}
+
+#pdfform button:hover {
+    background-color: #900000;
+    color: white;
+}
+
+.container {
+    width: 75vw;
+    margin: auto;
+    border-radius: 30px;
+    padding: 2em;
+    background-color: #f1f1f1;
+    box-shadow: 0px 0px 21px 1px rgba(0, 0, 0, 0.76);
+    margin-top: 2rem;
+
+}
+
+.actions {
+    text-align: center;
+}
+
+img {
+    width: 32px;
+    background: none;
+    margin: 1px;
+}
+
+img:hover {
+    width: 34px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table.books_table {
+    width: 75vw;
+}
+
+table.books_table thead {
+    text-align: left;
+    border: 3px solid white;
+    height: 5em;
+
+}
+
+table a {
+    background-color: #f1f1f1;
+
+}
+
+table.books_table thead th {
+    padding: 3px;
+    background-color: #f1f1f1;
+    text-align: center;
+    font-size: 1.2em;
+    width: auto;
+
+}
+
+table.books_table thead a:hover {
+    font-size: 110%;
+    text-decoration: underline;
+}
+
+table.books_table tbody td {
+    width: auto;
+    height: 4rem;
+    padding: 3px;
+    border: 3px solid white;
+    background-color: #f1f1f1;
+
+}
+
+a, a:hover, a:active, a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.pages {
+    margin: auto;
+    margin-top: 2rem;
+    width: 75vw;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.pages a:hover {
+    text-decoration: underline;
+}
+
+/*++++++++ EDIT BOOK PAGE ++++++++++*/
+
+.container-edit {
+    margin: auto;
+    text-align: center;
+    padding: 3rem;
+    justify-content: center;
+    background-color: #f1f1f1;
+    width: 50vw;
+    border-radius: 20px;
+    box-shadow: 0px 0px 21px 1px rgba(0, 0, 0, 0.76);
+    max-width: 40rem;
+
+}
+
+.form-edit, .form-edit label, .form-edit input, .form-edit .buttons-edit {
+    background-color: #f1f1f1;
+}
+
+.form-edit label {
+    font-size: 1.3rem;
+}
+
+.form-edit input {
+    width: 40vw;
+    font-size: 1em;
+    height: 2em;
+    max-width: 35rem;
+}
+
+#update-btn, .cancel-btn {
+    width: 6rem;
+    font-size: 1.2rem;
+    padding: 9px;
+}
+
+.buttons-edit {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+}
+
+.form-edit #update-btn {
+    color: mediumpurple;
+    border: 2px solid mediumpurple;
+    border-radius: 10px;
+    background-color: white;
+    height: 60px;
+    cursor: pointer;
+
+}
+
+.form-edit #update-btn:hover {
+    background-color: mediumpurple;
+    color: white;
+}
+
+
+.form-edit .cancel-btn {
+    color: #900000;
+    border: 2px solid #900000;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.form-edit .cancel-btn:hover {
+    background-color: #900000;
+    color: white;
+}
+
+/*++++++++ SHOW BOOK PAGE ++++++++++*/
+
+.container-show {
+    margin: auto;
+    padding: 3rem;
+    justify-content: center;
+    background-color: #f1f1f1;
+    width: 30vw;
+    border-radius: 20px;
+    box-shadow: 0px 0px 21px 1px rgba(0, 0, 0, 0.76);
+    max-width: 25rem;
+
+}
+
+.container-show .label, .container-show div {
+    background-color: #f1f1f1;
+}
+
+.container-show .label {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.container-show div {
+    font-size: 1.1em;
+}
+
+.container-show a {
+    color: #900000;
+    background-color: #f1f1f1;
+    width: 20rem;
+}
+
+.container-show #goback {
+    margin-top: 1.8rem;
+    text-align: center;
+    color: #900000;
+    border: 2px solid #900000;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.3rem;
+    padding: 5px;
+}
+
+.container-show #goback:hover {
+    background-color: #900000;
+    color: white;
+}
+
+.container-show #goback:hover a {
+    background-color: #900000;
+    color: white;
+}
+
+/*++++++++ DELETE BOOK PAGE ++++++++*/
+
+.container-delete {
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+    width: 40vw;
+    background-color: #f1f1f1;
+    justify-content: center;
+    padding: 0.3em 2em 2em 2em;
+    max-width: 20rem;
+    box-shadow: 0px 0px 21px 1px rgba(0, 0, 0, 0.76);
+
+}
+
+.container-delete p {
+    font-size: 1.3em;
+}
+
+.container-delete form, .container-delete p, .container-delete h2 {
+    background-color: #f1f1f1;
+}
+
+.buttons-delete {
+    margin-top: 2em;
+    display: flex;
+    background-color: #f1f1f1;
+    justify-content: space-around;
+}
+
+.buttons-delete #submit-btn:hover, .buttons-delete button:hover {
+    cursor: pointer;
+}
+
+.buttons-delete #submit-btn, .buttons-delete button {
+    width: 6rem;
+    font-size: 1.2em;
+    border-radius: 10px;
+    padding: 0.7em;
+
+}
+
+.buttons-delete #submit-btn {
+    border: 2px solid mediumpurple;
+    color: mediumpurple;
+}
+
+.buttons-delete #submit-btn:hover {
+    color: white;
+    background-color: mediumpurple;
+}
+
+.buttons-delete button {
+    color: #900000;
+    border: 2px solid #900000;
+}
+
+.buttons-delete button:hover {
+    color: white;
+    background-color: #900000;
+}
+
+/*+++++++++ FOOTER +++++++++*/
+
+footer {
+    margin-top: 15px;
+    display: flex;
+    height: 5rem;
+    background-color: #bd74fd;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 1.1rem;
+    bottom: 0;
+}
+
