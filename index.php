@@ -3,7 +3,6 @@
 // https://github.com/keefekwan/php_crud_mvc_oop
 
 require_once 'controller/BooksController.php';
-echo 'prueba';
 $controller = new BooksController();
 
 $controller->handleRequest();
